@@ -1,0 +1,13 @@
+name = "flytripvisaBot"
+main = "src/index.js"
+compatibility_date = "2026-08-10"
+
+[ai]
+binding = "AI"
+
+# Environment Variables (Secrets)
+# wrangler secret put TELEGRAM_BOT_TOKEN
+# wrangler secret put TELEGRAM_SECRET_TOKEN
+# wrangler secret put WHATSAPP_VERIFY_TOKEN
+# wrangler secret put WHATSAPP_ACCESS_TOKEN
+# wrangler secret put WHATSAPP_PHONE_NUMBER_ID
